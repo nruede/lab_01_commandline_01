@@ -1,4 +1,3 @@
-
 Lab - Entering Commands
 ==========
 Follow the instructions line-by-line.  
@@ -18,7 +17,8 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Desktop		Downloads	Movies		My Song.band	Public		Things		vms
+Documents	Library		Music		Pictures	Sites		VirtualBox VMs
 
 ==========
 2a. Type: 
@@ -28,19 +28,19 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+Nothing
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
-
+Desktop/   Documents/ Downloads/
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -50,7 +50,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+About Stacks.pdf
+Adobe
 
 ==========
 4.  Type:
@@ -60,7 +61,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.			.localized		Avid Projects		Final Cut Scratch	REAPER Media
+..			.promptCache		Blender Games		LEGO Creations		Student Work
 
 ==========
 5.  Type:
@@ -70,6 +72,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
+ls -a Documents
 
 
 ==========
@@ -80,6 +83,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
+ls -a Documents
 
 
 ==========
@@ -90,7 +94,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Macintosh HD
 
 ==========
 8.  Type:
@@ -99,38 +103,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+UP, ENTER
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-l -a
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+TAB
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Desktop
 
 ==========
 14.  Type:
@@ -140,7 +144,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +154,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +163,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+;s, -a, Desktop, $ (respectively)
